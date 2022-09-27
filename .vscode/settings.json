@@ -1,0 +1,27 @@
+{
+  "editor.rulers": [90],
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "rest-client.environmentVariables": {
+    "$shared": {
+      "pincode": "888222",
+      "admintoken": "UL7PlUDG8CWDJSEbouUpIrKOEtI2",
+      "url": "http://localhost:3000",
+      "email": "daikissdd@gmail.com",
+      "passward": "credee2020"
+    },
+    "dev": {
+      "url": "http://localhost:3000"
+    },
+    "prod": {
+      "url": "https://rsjp-t7svawcxta-an.a.run.app"
+    }
+  }
+}
