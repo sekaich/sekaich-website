@@ -23,7 +23,7 @@ const Faq: NextPage<any> = ({ lang }) => {
 
   const f = _.map(ja, (v: any) => {
     return (
-      <div className="faq_item">
+      <div className="faq_item" key={v.q}>
         <div className="faq_item-row">
           <span className="faq_item-icon faq_item-item_question">q</span>
           <span className="faq_item-row_body faq_item-row_body_question">{v.q}</span>

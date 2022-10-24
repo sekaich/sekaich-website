@@ -2,7 +2,6 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  distDir: 'docs',
   images: { unoptimized: true },
 };
 

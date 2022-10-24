@@ -19,10 +19,11 @@ export default function Document() {
           async
           src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script
+          type="text/javascript"
           async
           src="https://unpkg.com/scroll-hint@latest/js/scroll-hint.min.js"></script>
-        <script async src="js/script.js"></script>
       </Head>
+
       <body>
         <Main />
         <NextScript />

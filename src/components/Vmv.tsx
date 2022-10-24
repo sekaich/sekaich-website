@@ -12,7 +12,7 @@ const Vmv: NextPage<any> = ({ lang }) => {
     <Container>
       <Row>
         <h2 className="section_title">
-          <span className="section_title-ja">VISSION / MISSION / Values</span>
+          <span className="section_title-ja">VISSION / MISSION / VALUES</span>
           <span className="section_title-en">VMV</span>
         </h2>
 

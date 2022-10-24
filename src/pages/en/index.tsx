@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import Image from 'next/image';
 import styles from '../../styles/Home.module.css';
 import CommonHead from '../../components/CommonHead';
 import Header from '../../components/Header';
@@ -75,7 +76,7 @@ const Home: NextPage = () => {
                   <li className="sec-feature_item">
                     <p className="sec-feature_item_point">特徴1</p>
                     <figure className="sec-feature_item_figure">
-                      <img src="img/icon_code.svg" alt="" />
+                      {/* <Image src="img/icon_code.svg" alt="" /> */}
                     </figure>
                     <h3 className="sec-feature_item_title">自動的に情報を集める</h3>
                     <p className="sec-feature_item_text"></p>
@@ -83,7 +84,7 @@ const Home: NextPage = () => {
                   <li className="sec-feature_item">
                     <p className="sec-feature_item_point">特徴2</p>
                     <figure className="sec-feature_item_figure">
-                      <img src="img/icon_support.svg" alt="" />
+                      {/* <Image src="img/icon_support.svg" alt="" /> */}
                     </figure>
                     <h3 className="sec-feature_item_title">
                       柔軟に様々なデータを分析・作成
@@ -93,7 +94,7 @@ const Home: NextPage = () => {
                   <li className="sec-feature_item">
                     <p className="sec-feature_item_point">特徴3</p>
                     <figure className="sec-feature_item_figure">
-                      <img src="img/icon_search.svg" alt="" />
+                      {/* <Image src="img/icon_search.svg" alt="" /> */}
                     </figure>
                     <h3 className="sec-feature_item_title">安価に提供</h3>
                     <p className="sec-feature_item_text"></p>

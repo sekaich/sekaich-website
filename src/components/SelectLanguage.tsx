@@ -11,7 +11,7 @@ const SelectLanguage: NextPage<SelectLanguageProps> = ({ lang }) => {
   const router = useRouter();
 
   const onChange = (e: any) => {
-    if (e.target.value === 'en') {
+    if (e?.target?.value === 'en') {
       router.push('/en');
     } else {
       router.push('/');
