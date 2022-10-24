@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head
+    prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#"
+  >
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- OGP -->
+    <meta property="og:url" content="ページのURL" />
+    <meta property="og:title" content="GSS LAB" />
+    <meta property="og:description" content="情報とテクノロジーで価値を築く" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="ogp.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- //OGP -->
+
+    <!-- resource -->
+    <link rel="shortcut icon" href="favicon.ico" type="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/scroll-hint@latest/css/scroll-hint.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- //resource -->
+
+    <!-- meta -->
+    <title>合同会社セカイチャンネル</title>
+    <meta name="description" content="情報とテクノロジーで価値を築く" />
+    <!-- //meta -->
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_inner">
+        <h1 class="logo">
+          <a style="font-size: 20px" href="/">セカイチャンネル</a>
+        </h1>
+        <nav class="navi">
+          <ul class="navi_list"></ul>
+        </nav>
+        <div class="languageSwitcher_wrapper">
+          <select name="lang_choice_1" id="lang_choice_1" class="languageSwitcher">
+            <option value="/index.html" lang="ja" selected="selected">Japanese</option>
+            <option value="/en/index.html" lang="en-US">English</option>
+          </select>
+          <script type="text/javascript">
+            //<![CDATA[
+            document
+              .getElementById('lang_choice_1')
+              .addEventListener('change', function (event) {
+                location.href = event.currentTarget.value;
+              });
+            //]]>
+          </script>
+        </div>
+        <a
+          class="header_contact"
+          target="_blank"
+          href="https://forms.gle/6d2dT5484Jj2mnye6"
+          >お問い合わせ</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <div class="mv">
+        <picture class="mv_bg">
+          <source media="(max-width:769px)" srcset="img/mv_sp.jpg" />
+        </picture>
+
+        <div style="background-color: rgb(74, 40, 200); padding: 40px 1px 1px 1px">
+          <div class="inner">
+            <p class="mv_catch">企業分析を極める</p>
+            <div class="mv_text">
+              <p>日本の上場企業リスト<br class="sp" />を簡単に取得</p>
+              <p>日本の上場企業情報集めは<br class="sp" />セカイチャンネルで</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="p-top_content">
+        <section class="section" id="feature">
+          <div class="inner">
+            <div class="section_head-feature">
+              <h2 class="section_title">
+                <span class="section_title-ja"
+                  >上場企業の情報取集なら セカイチャンネル</span
+                >
+                <span class="section_title-en">feature</span>
+              </h2>
+            </div>
+            <div class="section_body">
+              <p class="sec-feature_text">上場会社の会社情報を集められます<br /></p>
+              <ul class="sec-feature_list">
+                <li class="sec-feature_item">
+                  <p class="sec-feature_item_point">特徴1</p>
+                  <figure class="sec-feature_item_figure">
+                    <img src="img/icon_code.svg" alt="" />
+                  </figure>
+                  <h3 class="sec-feature_item_title">自動的に情報を集める</h3>
+                  <p class="sec-feature_item_text"></p>
+                </li>
+                <li class="sec-feature_item">
+                  <p class="sec-feature_item_point">特徴2</p>
+                  <figure class="sec-feature_item_figure">
+                    <img src="img/icon_support.svg" alt="" />
+                  </figure>
+                  <h3 class="sec-feature_item_title">柔軟に様々なデータを分析・作成</h3>
+                  <p class="sec-feature_item_text"></p>
+                </li>
+                <li class="sec-feature_item">
+                  <p class="sec-feature_item_point">特徴3</p>
+                  <figure class="sec-feature_item_figure">
+                    <img src="img/icon_search.svg" alt="" />
+                  </figure>
+                  <h3 class="sec-feature_item_title">安価に提供</h3>
+                  <p class="sec-feature_item_text"></p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="faq">
+          <div class="inner">
+            <div class="section_head-faq">
+              <h2 class="section_title">
+                <span class="section_title-ja">よくあるご質問</span>
+                <span class="section_title-en">faq</span>
+              </h2>
+            </div>
+            <div class="section_body">
+              <dl class="faq_list">
+                <div class="faq_item">
+                  <dt class="faq_item-row">
+                    <span class="faq_item-icon faq_item-item_question">q</span>
+                    <span class="faq_item-row_body faq_item-row_body_question"
+                      >コミュニケーションツールは何を使用しますか？</span
+                    >
+                  </dt>
+                  <dd class="faq_item-row">
+                    <span class="faq_item-icon faq_item-item_answer">a</span>
+                    <span class="faq_item-row_body faq_item-row_body_answer"
+                      >貴社に合わせて対応可能です。<br />特に指定がなければ、Slack
+                      を利用しています。<br />それ以外の管理ツールも標準のものがありますが、柔軟に対応しますので、ご相談ください。</span
+                    >
+                  </dd>
+                </div>
+              </dl>
+              <div class="sec-faq_btn">
+                <div class="btnWrap">
+                  <p class="btn-bubble">まずはご相談から</p>
+                  <a
+                    class="btn"
+                    target="_blank"
+                    href="https://forms.gle/6d2dT5484Jj2mnye6"
+                    >お問い合せはこちら</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="company">
+          <div class="inner">
+            <div class="section_head-company">
+              <h2 class="section_title">
+                <span class="section_title-ja">会社概要</span>
+                <span class="section_title-en">company</span>
+              </h2>
+            </div>
+            <div class="section_body">
+              <div class="sec-company_flex">
+                <dl class="sec-company_list">
+                  <div class="sec-company_item">
+                    <dt class="sec-company_item_title">会社名</dt>
+                    <dd class="sec-company_item_text">合同会社セカイチャンネル</dd>
+                  </div>
+                  <div class="sec-company_item">
+                    <dt class="sec-company_item_title">所在地</dt>
+                    <dd class="sec-company_item_text">
+                      東京都墨田区八広2-50-8 フルリール墨田 203
+                    </dd>
+                  </div>
+                  <div class="sec-company_item">
+                    <dt class="sec-company_item_title">代表者</dt>
+                    <dd class="sec-company_item_text">白川　大記</dd>
+                  </div>
+                  <div class="sec-company_item">
+                    <dt class="sec-company_item_title">設立日</dt>
+                    <dd class="sec-company_item_text">2016年2月5日</dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="inner"></div>
+      <div class="copyright">
+        <p class="copyright_text">
+          Copyright &copy; 2022 Sekai Channel All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

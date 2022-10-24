@@ -24,14 +24,14 @@ const Faq: NextPage<any> = ({ lang }) => {
   const f = _.map(ja, (v: any) => {
     return (
       <div className="faq_item">
-        <dt className="faq_item-row">
+        <div className="faq_item-row">
           <span className="faq_item-icon faq_item-item_question">q</span>
           <span className="faq_item-row_body faq_item-row_body_question">{v.q}</span>
-        </dt>
-        <dd className="faq_item-row">
+        </div>
+        <div className="faq_item-row">
           <span className="faq_item-icon faq_item-item_answer">a</span>
           <span className="faq_item-row_body faq_item-row_body_answer">{v.a}</span>
-        </dd>
+        </div>
       </div>
     );
   });
@@ -46,7 +46,7 @@ const Faq: NextPage<any> = ({ lang }) => {
           </h2>
         </div>
         <div className="section_body">
-          <dl className="faq_list">{f}</dl>
+          <div className="faq_list">{f}</div>
 
           <div className="sec-faq_btn">
             <div className="btnWrap">
@@ -54,6 +54,7 @@ const Faq: NextPage<any> = ({ lang }) => {
               <a
                 className="btn"
                 target="_blank"
+                rel="noreferrer"
                 href="https://forms.gle/6d2dT5484Jj2mnye6">
                 お問い合せはこちら
               </a>

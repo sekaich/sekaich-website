@@ -1,4 +1,5 @@
 import type { NextPage } from 'next';
+import Link from 'next/link';
 import SelectLanguage from './SelectLanguage';
 
 const Header: NextPage<any> = ({ lang }) => {
@@ -16,9 +17,9 @@ const Header: NextPage<any> = ({ lang }) => {
     <header className="header">
       <div className="header_inner">
         <h1 className="logo">
-          <a style={styles.logo} href="/">
-            SKCH
-          </a>
+          <Link href="/">
+            <span style={styles.logo}>SKCH</span>
+          </Link>
         </h1>
         <nav className="navi">
           <ul className="navi_list"></ul>
@@ -26,7 +27,7 @@ const Header: NextPage<any> = ({ lang }) => {
         <div style={{ paddingRight: '20px' }}>
           <SelectLanguage lang={lang} />
         </div>
-        <a className="header_contact" target="_blank" href={G_FORM_URL}>
+        <a className="header_contact" target="_blank" href={G_FORM_URL} rel="noreferrer">
           {lang === 'ja' ? 'お問い合わせ' : 'Ccontact'}
         </a>
       </div>

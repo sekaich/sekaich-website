@@ -18,22 +18,6 @@ const CommonHead: NextPage = () => {
         <meta property="og:type" content="website" />
         <meta property="og:image" content="ogp.png" />
         <meta name="twitter:card" content="summary_large_image" />
-
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@900&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          rel="stylesheet"
-          href="https://unpkg.com/scroll-hint@latest/css/scroll-hint.css"
-        />
-        <script
-          type="text/javascript"
-          src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="https://unpkg.com/scroll-hint@latest/js/scroll-hint.min.js"></script>
-        <script src="js/script.js"></script>
       </Head>
     </div>
   );

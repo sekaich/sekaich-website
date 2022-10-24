@@ -1,22 +1,22 @@
 // scroll position
 var urlHash = location.hash;
-if (urlHash) {
+if(urlHash) {
   $('body,html').stop().scrollTop(0);
   setTimeout(function () {
-    scrollToAnker(urlHash);
+    scrollToAnker(urlHash) ;
   }, 100);
 }
 function scrollToAnker(hash) {
-  var target = $(hash);
-  var position = target.offset().top - 70;
-  $('body,html').stop().animate({ scrollTop: position }, 100);
+    var target = $(hash);
+    var position = target.offset().top - 70;
+    $('body,html').stop().animate({scrollTop:position}, 100);
 }
 $('a[href*="#"]').on('click', function () {
-  var href = $(this).attr('href').substr($(this).attr('href').indexOf('#'));
-  var target = $(href == '#' || href == '' ? 'html' : href);
-  if (target != undefined) {
+  var href = $(this).attr("href").substr( $(this).attr("href").indexOf('#') );
+  var target = $(href == "#" || href == "" ? 'html' : href);
+  if(target!=undefined){
     var position = target.offset().top - 70;
-    $('html, body').animate({ scrollTop: position }, 100, 'swing');
+    $("html, body").animate({scrollTop: position}, 100, "swing");
   }
   return false;
 });
@@ -26,7 +26,9 @@ $('a[href*="#"]').on('click', function () {
   const viewport = document.querySelector('meta[name="viewport"]');
   function switchViewport() {
     const value =
-      window.outerWidth > 360 ? 'width=device-width,initial-scale=1' : 'width=360';
+      window.outerWidth > 360
+        ? 'width=device-width,initial-scale=1'
+        : 'width=360';
     if (viewport.getAttribute('content') !== value) {
       viewport.setAttribute('content', value);
     }
@@ -36,18 +38,19 @@ $('a[href*="#"]').on('click', function () {
 })();
 
 // table scroll hint
-if (document.documentElement.lang.includes('ja' || 'ja-jp' || 'ja-JP')) {
+if(document.documentElement.lang.includes('ja' || 'ja-jp' || 'ja-JP')) {
   new ScrollHint('.js-scrollable', {
     applyToParents: true,
     i18n: {
-      scrollable: 'スクロールできます',
-    },
+      scrollable: 'スクロールできます'
+    }
   });
 } else {
   new ScrollHint('.js-scrollable', {
     applyToParents: true,
     i18n: {
-      scrollable: 'You can scroll',
-    },
+      scrollable: 'You can scroll'
+    }
   });
 }
+
