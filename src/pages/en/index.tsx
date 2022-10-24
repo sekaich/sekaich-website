@@ -2,7 +2,6 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../../styles/Home.module.css';
-import CommonHead from '../../components/CommonHead';
 import Header from '../../components/Header';
 import ConpanyInfo from '../../components/ConpanyInfo';
 import Faq from '../../components/Faq';
@@ -17,8 +16,6 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <CommonHead />
-        <html lang={LANG} />
         <title>Sekai Channel LLC.</title>
       </Head>
 
