@@ -21,7 +21,26 @@ const Faq: NextPage<any> = ({ lang }) => {
     },
   ];
 
-  const f = _.map(ja, (v: any) => {
+  const en: any = [
+    {
+      q: 'Which company is Sekai Channel LLC?',
+      a: 'A Japanese company located in Tokyo.',
+    },
+    {
+      q: 'Why can Sekai Channel provide such professional service?',
+      a: '弊社には、IT サービスの開発・運用経験、株式投資、スタートアップ運営、ファンド運用の知見があります。これまでの知見を活用、集約してご提供が可能になっています。',
+    },
+    {
+      q: 'How should I contact to company?',
+      a: 'Please contact us from the contact form first. We will communicate by email, and after that, if you wish, you can use tools such as messenger and chatwork.',
+    },
+    {
+      q: 'Is it possible to pay in foreign currency?',
+      a: 'In case of payment in foreign currency, we ask that you pay by credit card.',
+    },
+  ];
+
+  const f = _.map(lang === 'ja' ? ja : en, (v: any) => {
     return (
       <div className="faq_item" key={v.q}>
         <div className="faq_item-row">
@@ -41,7 +60,9 @@ const Faq: NextPage<any> = ({ lang }) => {
       <div className="inner">
         <div className="section_head-faq">
           <h2 className="section_title">
-            <span className="section_title-ja">よくあるご質問</span>
+            <span className="section_title-ja">
+              {lang === 'ja' ? 'よくあるご質問' : 'Frequently Asked Questions'}
+            </span>
             <span className="section_title-en">faq</span>
           </h2>
         </div>
@@ -50,13 +71,15 @@ const Faq: NextPage<any> = ({ lang }) => {
 
           <div className="sec-faq_btn">
             <div className="btnWrap">
-              <p className="btn-bubble">まずはご相談から</p>
+              <p className="btn-bubble">
+                {lang === 'ja' ? 'まずはご相談から' : 'Start with your consultation'}
+              </p>
               <a
                 className="btn"
                 target="_blank"
                 rel="noreferrer"
                 href="https://forms.gle/6d2dT5484Jj2mnye6">
-                お問い合せはこちら
+                {lang === 'ja' ? 'お問い合せはこちら' : 'Contact here'}
               </a>
             </div>
           </div>

@@ -38,9 +38,9 @@ const Home: NextPage = () => {
                   easy to get.
                 </p>
                 <p>
-                  日本の上場企業情報集めは
+                  Collect information on Japanese listed companies
                   <br className="sp" />
-                  セカイチャンネルで
+                  on Sekai Channel
                 </p>
               </div>
             </div>
@@ -53,47 +53,51 @@ const Home: NextPage = () => {
               <div className="section_head-feature">
                 <h2 className="section_title">
                   <span className="section_title-ja">
-                    上場企業の情報取集なら セカイチャンネル
+                    Sekai Channel FEATURE for collecting information on listed companies
                   </span>
                   <span className="section_title-en">feature</span>
                 </h2>
               </div>
               <div className="section_body">
                 <p className="sec-feature_text">
-                  合同会社セカイチャンネルでは、日本上場企業分析とコンサルティングを強みとしております。
+                  Sekai Channel Limited Liability Company has strengths in Japanese listed
+                  company analysis and consulting.
                   <br />
-                  ITサービス事業運営やファンド運用経験があり、また、アジアでの事業経験があります。
+                  He has experience in IT service business management and fund management,
+                  as well as business experience in Asia.
                   <br />
-                  これらのサービスは、全て英語での提供も可能です。
+                  All of these services are also available in English.
                   <br />
-                  詳しくは、<span style={{ color: 'red' }}>こちら</span>
-                  からお問い合わせください。
+                  Please contact us for more information from{' '}
+                  <span style={{ color: 'red' }}>here</span>.
                 </p>
                 <ul className="sec-feature_list">
                   <li className="sec-feature_item">
-                    <p className="sec-feature_item_point">特徴1</p>
+                    <p className="sec-feature_item_point">Feature 1</p>
                     <figure className="sec-feature_item_figure">
                       {/* <Image src="img/icon_code.svg" alt="" /> */}
                     </figure>
-                    <h3 className="sec-feature_item_title">自動的に情報を集める</h3>
-                    <p className="sec-feature_item_text"></p>
-                  </li>
-                  <li className="sec-feature_item">
-                    <p className="sec-feature_item_point">特徴2</p>
-                    <figure className="sec-feature_item_figure">
-                      {/* <Image src="img/icon_support.svg" alt="" /> */}
-                    </figure>
                     <h3 className="sec-feature_item_title">
-                      柔軟に様々なデータを分析・作成
+                      Collect information automatically
                     </h3>
                     <p className="sec-feature_item_text"></p>
                   </li>
                   <li className="sec-feature_item">
-                    <p className="sec-feature_item_point">特徴3</p>
+                    <p className="sec-feature_item_point">Feature 2</p>
+                    <figure className="sec-feature_item_figure">
+                      {/* <Image src="img/icon_support.svg" alt="" /> */}
+                    </figure>
+                    <h3 className="sec-feature_item_title">
+                      Flexible analysis and creation of various data
+                    </h3>
+                    <p className="sec-feature_item_text"></p>
+                  </li>
+                  <li className="sec-feature_item">
+                    <p className="sec-feature_item_point">Feature 3</p>
                     <figure className="sec-feature_item_figure">
                       {/* <Image src="img/icon_search.svg" alt="" /> */}
                     </figure>
-                    <h3 className="sec-feature_item_title">安価に提供</h3>
+                    <h3 className="sec-feature_item_title">Low price provided</h3>
                     <p className="sec-feature_item_text"></p>
                   </li>
                 </ul>
