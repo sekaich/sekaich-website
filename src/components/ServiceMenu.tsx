@@ -135,7 +135,11 @@ const Header: NextPage<any> = ({ lang }) => {
   const menu = _.map(lang === 'ja' ? ja : en, (val: list) => {
     return (
       <Col md={6} style={{ paddingTop: '16px' }} key={val.title}>
-        <Card style={{ minHeight: '192px', backgroundColor: 'lightblue' }}>
+        <Card
+          style={{
+            minHeight: lang === 'ja' ? '192px' : '230px',
+            backgroundColor: 'lightblue',
+          }}>
           <Card.Body>
             <Card.Title>{val.title}</Card.Title>
             <Card.Text>{val.body}</Card.Text>

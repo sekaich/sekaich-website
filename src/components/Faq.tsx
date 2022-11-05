@@ -28,7 +28,7 @@ const Faq: NextPage<any> = ({ lang }) => {
     },
     {
       q: 'Why can Sekai Channel provide such professional service?',
-      a: '弊社には、IT サービスの開発・運用経験、株式投資、スタートアップ運営、ファンド運用の知見があります。これまでの知見を活用、集約してご提供が可能になっています。',
+      a: 'We have experience in developing and operating IT services, as well as knowledge of stock investment, startup management, and fund management. It is possible to utilize and aggregate the knowledge so far and provide it.',
     },
     {
       q: 'How should I contact to company?',

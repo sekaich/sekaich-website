@@ -31,22 +31,26 @@ const Vmv: NextPage<any> = ({ lang }) => {
                 </ListGroup.Item>
               </ListGroup>
 
-              <Card.Text>
+              <div style={{ paddingTop: '10px', fontSize: '14px' }}>
                 {isJA ? (
                   <>
                     セカイチャンネルは、「本来価値を発見・発展させる」をビジョンに掲げています。
+                    <br />
                     価値とは、流動的で主観的なものだと考えています。しかし確実にそこに存在します。
+                    <br />
                     弊社では、価値を様々な人に認識してもらい、その価値をより発展させる支援をしたいと考えています。
                   </>
                 ) : (
                   <>
                     Sekai Channel's vision is to "discover and develop intrinsic value".
                     We believe that value is fluid and subjective. But it is definitely
-                    there. We would like to have various people recognize the value and
-                    support the further development of that value.
+                    there.
+                    <br />
+                    We would like to have various people recognize the value and support
+                    the further development of that value.
                   </>
                 )}
-              </Card.Text>
+              </div>
             </Card.Body>
           </Card>
         </Col>
@@ -75,11 +79,11 @@ const Vmv: NextPage<any> = ({ lang }) => {
                 </ListGroup.Item>
               </ListGroup>
 
-              <Card.Text>
+              <div style={{ paddingTop: '10px', fontSize: '14px' }}>
                 {isJA
                   ? '三つのミッションがあります。投資家、海外企業、日本企業のそれぞれの発展ために働きます。'
                   : 'There are 3 missions. We work for the development of investors, overseas companies, and Japanese companies.'}
-              </Card.Text>
+              </div>
             </Card.Body>
           </Card>
         </Col>
