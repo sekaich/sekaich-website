@@ -42,7 +42,7 @@ const Vmv: NextPage<any> = ({ lang }) => {
                   </>
                 ) : (
                   <>
-                    Sekai Channel vision is to discover and develop intrinsic value. We
+                    Sekai Channel of vision is to discover and develop intrinsic value. We
                     believe that value is fluid and subjective. But it is definitely
                     there.
                     <br />
