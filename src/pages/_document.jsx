@@ -5,7 +5,6 @@ export default function Document() {
     <Html>
       <Head>
         <meta charSet="utf-8" />
-        <title>合同会社セカイチャンネル</title>
         <meta name="description" content="情報とテクノロジーで価値を築く" />
         <link rel="shortcut icon" href="favicon.ico" type="favicon.ico" />
 

@@ -42,8 +42,8 @@ const Vmv: NextPage<any> = ({ lang }) => {
                   </>
                 ) : (
                   <>
-                    Sekai Channel's vision is to "discover and develop intrinsic value".
-                    We believe that value is fluid and subjective. But it is definitely
+                    Sekai Channel vision is to discover and develop intrinsic value. We
+                    believe that value is fluid and subjective. But it is definitely
                     there.
                     <br />
                     We would like to have various people recognize the value and support
@@ -65,17 +65,17 @@ const Vmv: NextPage<any> = ({ lang }) => {
                 <ListGroup.Item>
                   {isJA
                     ? '「投資家に視点とツールを提供」'
-                    : '"Providing Investors with Perspectives and Tools"'}
+                    : 'Providing Investors with Perspectives and Tools'}
                 </ListGroup.Item>
                 <ListGroup.Item>
                   {isJA
                     ? '「日本上場企業により機会を提供する」'
-                    : '“Providing opportunities for Japanese listed companies”'}
+                    : 'Providing opportunities for Japanese listed companies'}
                 </ListGroup.Item>
                 <ListGroup.Item>
                   {isJA
                     ? '「海外から日本の価値を発見してもらう」'
-                    : '“Discover the value of Japan from overseas”'}
+                    : 'Discover the value of Japan from overseas'}
                 </ListGroup.Item>
               </ListGroup>
 
@@ -98,24 +98,22 @@ const Vmv: NextPage<any> = ({ lang }) => {
               <h3 style={{ paddingTop: '16px' }}>3 Values</h3>
               <ListGroup style={{ paddingTop: '10px', fontSize: '16px' }}>
                 <ListGroup.Item>
-                  {isJA ? '「独自の価値の提供」' : '"Provision of unique value"'}
+                  {isJA ? '「独自の価値の提供」' : 'Provision of unique value'}
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  {isJA ? '「ソフトウェア重視」' : '"Software focused"'}
+                  {isJA ? '「ソフトウェア重視」' : 'Software focused'}
                 </ListGroup.Item>
-                <ListGroup.Item>{isJA ? '「進行させる」' : '"Proceed"'}</ListGroup.Item>
+                <ListGroup.Item>{isJA ? '「進行させる」' : 'Proceed'}</ListGroup.Item>
               </ListGroup>
               <h3 style={{ paddingTop: '16px' }}>3 Protections</h3>
               <ListGroup style={{ paddingTop: '10px', fontSize: '16px' }}>
                 <ListGroup.Item>
-                  {isJA ? '「元本を守る」' : '"Protect the principal"'}
+                  {isJA ? '「元本を守る」' : 'Protect the principal'}
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  {isJA ? '「取引を守る」' : '"Protect the deal"'}
+                  {isJA ? '「取引を守る」' : 'Protect the deal'}
                 </ListGroup.Item>
-                <ListGroup.Item>
-                  {isJA ? '「時間を守る」' : '"be on time"'}
-                </ListGroup.Item>
+                <ListGroup.Item>{isJA ? '「時間を守る」' : 'be on time'}</ListGroup.Item>
               </ListGroup>
             </Card.Body>
           </Card>
